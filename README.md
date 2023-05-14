@@ -2,14 +2,23 @@
 ## Setup
 Clone this repo into your [CoppeliaSim](https://www.coppeliarobotics.com/coppeliaSim) directory.
 The easiest way:
-1. clone this repo
+1. Clone this repo
 ```bash
 git clone git@github.com:TauTheLepton/MISK-23L.git
 ```
-2. Moge `.git` directory into your CoppeliaSim directory
+2. Move `.git` directory into your CoppeliaSim directory
 ```bash
 mv MISK-23L/.git <your CippeliaSim directory path>/
 ```
+3. Change directory
+```bash
+cd <your CippeliaSim directory path>
+```
+4. Restore missing files
+```bash
+git restore .
+```
+Alternatively you can follow [this guide](https://gist.github.com/ZeroDragon/6707408).
 
 ## How to use
 In the Leader script you can change the following parameters
