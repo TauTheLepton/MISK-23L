@@ -14,7 +14,7 @@ mv MISK-23L/.git <your CippeliaSim directory path>/
 ```bash
 cd <your CippeliaSim directory path>
 ```
-4. Restore missing files
+4. Restore missing files (after this step you can safely remove the cloned `MISK-23L` directory)
 ```bash
 git restore .
 ```
